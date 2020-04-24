@@ -1,0 +1,26 @@
+.primary-hero{
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 200px;
+
+    .heading-container{
+        margin-top: 35vh;
+        font-family: 'Oswald';
+        color: #fff;
+        padding-left: 20px;;
+        h1{
+            font-size: 60px;
+            text-transform: capitalize;
+            font-weight: 100;
+        }
+        h2{
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+    }
+    .separator{
+        width: 100%;
+        display: block;
+    }
+}
