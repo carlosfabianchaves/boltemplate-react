@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.a217dea1.chunk.css",
-    "main.js": "./static/js/main.c37a2952.chunk.js",
-    "main.js.map": "./static/js/main.c37a2952.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.25e2ef09.js",
-    "runtime-main.js.map": "./static/js/runtime-main.25e2ef09.js.map",
-    "static/js/2.adce48bd.chunk.js": "./static/js/2.adce48bd.chunk.js",
-    "static/js/2.adce48bd.chunk.js.map": "./static/js/2.adce48bd.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.430c7b1e3d4090beb66a1b9aa1aa1a78.js": "./precache-manifest.430c7b1e3d4090beb66a1b9aa1aa1a78.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.a217dea1.chunk.css.map": "./static/css/main.a217dea1.chunk.css.map",
-    "static/js/2.adce48bd.chunk.js.LICENSE.txt": "./static/js/2.adce48bd.chunk.js.LICENSE.txt",
-    "static/media/home.scss": "./static/media/hero-home.1053dab8.jpg"
+    "main.css": "/boltemplate-react/build/static/css/main.fe32da0b.chunk.css",
+    "main.js": "/boltemplate-react/build/static/js/main.c895bb47.chunk.js",
+    "main.js.map": "/boltemplate-react/build/static/js/main.c895bb47.chunk.js.map",
+    "runtime-main.js": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js",
+    "runtime-main.js.map": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js.map",
+    "static/js/2.adce48bd.chunk.js": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js",
+    "static/js/2.adce48bd.chunk.js.map": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js.map",
+    "index.html": "/boltemplate-react/build/index.html",
+    "precache-manifest.1b3517009c692d71f6fefc01de8a5423.js": "/boltemplate-react/build/precache-manifest.1b3517009c692d71f6fefc01de8a5423.js",
+    "service-worker.js": "/boltemplate-react/build/service-worker.js",
+    "static/css/main.fe32da0b.chunk.css.map": "/boltemplate-react/build/static/css/main.fe32da0b.chunk.css.map",
+    "static/js/2.adce48bd.chunk.js.LICENSE.txt": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js.LICENSE.txt",
+    "static/media/home.scss": "/boltemplate-react/build/static/media/hero-home.1053dab8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.25e2ef09.js",
+    "static/js/runtime-main.1b1a2999.js",
     "static/js/2.adce48bd.chunk.js",
-    "static/css/main.a217dea1.chunk.css",
-    "static/js/main.c37a2952.chunk.js"
+    "static/css/main.fe32da0b.chunk.css",
+    "static/js/main.c895bb47.chunk.js"
   ]
 }
