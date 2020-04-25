@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boltemplate-react/build/static/css/main.6e5df9d0.chunk.css",
+    "main.css": "/boltemplate-react/build/static/css/main.5d8c4282.chunk.css",
     "main.js": "/boltemplate-react/build/static/js/main.148620d5.chunk.js",
     "main.js.map": "/boltemplate-react/build/static/js/main.148620d5.chunk.js.map",
     "runtime-main.js": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js",
@@ -8,16 +8,16 @@
     "static/js/2.adce48bd.chunk.js": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js",
     "static/js/2.adce48bd.chunk.js.map": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js.map",
     "index.html": "/boltemplate-react/build/index.html",
-    "precache-manifest.4ad5dc121a5af82f44d99cbe7a323a94.js": "/boltemplate-react/build/precache-manifest.4ad5dc121a5af82f44d99cbe7a323a94.js",
+    "precache-manifest.67a91563c8e66e3957713e3d7c02c90a.js": "/boltemplate-react/build/precache-manifest.67a91563c8e66e3957713e3d7c02c90a.js",
     "service-worker.js": "/boltemplate-react/build/service-worker.js",
-    "static/css/main.6e5df9d0.chunk.css.map": "/boltemplate-react/build/static/css/main.6e5df9d0.chunk.css.map",
+    "static/css/main.5d8c4282.chunk.css.map": "/boltemplate-react/build/static/css/main.5d8c4282.chunk.css.map",
     "static/js/2.adce48bd.chunk.js.LICENSE.txt": "/boltemplate-react/build/static/js/2.adce48bd.chunk.js.LICENSE.txt",
     "static/media/home.scss": "/boltemplate-react/build/static/media/hero-home.1053dab8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1b1a2999.js",
     "static/js/2.adce48bd.chunk.js",
-    "static/css/main.6e5df9d0.chunk.css",
+    "static/css/main.5d8c4282.chunk.css",
     "static/js/main.148620d5.chunk.js"
   ]
 }

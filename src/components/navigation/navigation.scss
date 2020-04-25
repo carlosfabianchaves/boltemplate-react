@@ -110,7 +110,7 @@ $assetPath : "/boltemplate-react/build/images/";
         .close-icon{
             width: 20px;
             height: 20px;
-            background-image: url('/images/icons/close-icon.svg');
+            background-image: url(#{$assetPath}icons/close-icon.svg);
             position: absolute;
             top: 15px;
             right: 10px;
@@ -141,7 +141,7 @@ $assetPath : "/boltemplate-react/build/images/";
             display: inline-block;
             height: 20px;
             width: 20px;
-            background-image: url('/images/icons/menu-icon.svg');
+            background-image: url(#{$assetPath}icons/menu-icon.svg);
             background-size: cover;
             vertical-align: top;
         }
