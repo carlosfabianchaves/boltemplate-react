@@ -1,3 +1,5 @@
+$assetPath : "/boltemplate-react/build/images/";
+
 #desktopNav{
     position: fixed;
     top: 0px;
@@ -47,7 +49,7 @@
         margin-right: 15px;
         margin-left: 30px;
         padding: 2px;
-        background-image: url('/images/icons/icon_search.svg');;
+        background: url(#{$assetPath}/icons/icon_search.svg);
         background-size: cover;
         display: inline-block;
         vertical-align: top;
@@ -57,7 +59,7 @@
         height: 30px;
         margin-top: 20px;
         padding: 2px;
-        background-image: url('/images/icons/icon_cart.svg');;
+        background: url(#{$assetPath}/icons/icon_cart.svg);
         background-size: cover;
         display: inline-block;
         vertical-align: top;

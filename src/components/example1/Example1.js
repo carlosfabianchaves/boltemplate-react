@@ -6,7 +6,7 @@ class Example1 extends Component{
     componentData = {
         heading: "Alright This Title is Big",
         subheading: "THE SUBTITLE IS IN ALL CAPS",
-        backgroundImage: 'url("/images/heroes/husky.jpg")'
+        backgroundImage: 'url("./images/heroes/husky.jpg")'
     }
     constructor(props){
         super(props)

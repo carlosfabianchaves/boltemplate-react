@@ -99,7 +99,7 @@ class NavigationMobile extends Component{
        let mobileNav = this.getMovileMenu();
         return(            
            <nav id="navMobile">
-            <img src="/images/main-logo.svg" className="main-logo" alt="Company Logo"/>
+            <img src="./images/main-logo.svg" className="main-logo" alt="Company Logo"/>
             <div className={this.state.isSubmenuOpen ? "submenu-open sub-navigation" : "sub-navigation" }>
                 {mobileNav.map((navItem, index)=> (
                     <ul key={index} className="mobile-submenu">

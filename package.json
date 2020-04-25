@@ -1,6 +1,6 @@
 {
   "name": "boldtemplate", 
-  "homepage": "https://carlosfabianchaves.github.io/boltemplate-react/build/",
+  "homepage": "/boltemplate-react/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

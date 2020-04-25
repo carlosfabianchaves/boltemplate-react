@@ -43,7 +43,7 @@ class Navigation extends Component{
     render(){
         return(
             <nav id="desktopNav">
-                <img src="/images/main-logo.svg" className="main-logo" alt="Company Logo"/>
+                <img src="./images/main-logo.svg" className="main-logo" alt="Company Logo"/>
                 {this.renderMenu()}
                 <span className="search-top"></span>
                 <span className="shop-top"></span>
