@@ -6,10 +6,10 @@ export function returnNav(){
                 {
                     navLabel: "Example Pages",
                     ChildrenItems: [ 
-                        {navLabel: "Example1", link: "/example1"},
-                        {navLabel: "Events", link: "/events"},
-                        {navLabel: "Example2", link: "/example2"},
-                        {navLabel: "Snow Report", link: "/snowreport"}
+                        {navLabel: "Example1", link: "./example1"},
+                        {navLabel: "Events", link: "./events"},
+                        {navLabel: "Example2", link: "./example2"},
+                        {navLabel: "Snow Report", link: "./snowreport"}
                 ]
                 },
                 {
