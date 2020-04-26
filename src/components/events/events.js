@@ -15,8 +15,7 @@ class Events extends Component{
     render(){
         return(
             <div className="main-content">
-                <PrimaryHero heroData={this.componentData} >
-                    
+                <PrimaryHero heroData={this.componentData} >                    
                 </PrimaryHero>
             </div>
         )

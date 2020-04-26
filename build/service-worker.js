@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/boltemplate-react/build/precache-manifest.67a91563c8e66e3957713e3d7c02c90a.js"
+  "/boltemplate-react/build/precache-manifest.895114ae0175f2970998d61fe3bfd414.js"
 );
 
 self.addEventListener('message', (event) => {
