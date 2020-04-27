@@ -1,0 +1,29 @@
+.promo-container{
+    display: inline-block;
+    width: 50%;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 120px;
+
+    @media screen and (max-width: 980px){
+        width: 100%;
+    } 
+    .heading{
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+        width: 70%;
+        padding: 10px;
+        h2{
+            color: #165767;
+            font-family: 'Oswald';
+            font-weight: 100;
+        }
+        h3{
+            color: #0C97B9;
+            font-family: 'Oswald';
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+    }    
+}

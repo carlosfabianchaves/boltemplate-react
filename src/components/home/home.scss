@@ -16,12 +16,30 @@ $assetPath : "/boltemplate-react/build/images/";
     background-position: 50%;
     @media screen and (max-width: 980px){
         
-     }
-     background-position-y: -200px;
-     background-position-x: 50%;
+     }    
 
     .separator{
         width: 100%;
         display: block;
+    }
+
+    
+}
+
+.promos{
+    position: relative;
+
+    .separator-top{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        margin-top: -2px;
+    }
+    .promo-separator{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        top: -100px;
     }
 }
