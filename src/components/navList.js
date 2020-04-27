@@ -33,7 +33,7 @@ export function returnNav(){
             ]
         },
         {     
-            id:2,   
+            id:3,   
             navLabel: "Lessons & Rentals",
             ChildrenItems : [
                 {
@@ -47,7 +47,7 @@ export function returnNav(){
             ]
         },
         {     
-            id:2,   
+            id:4,   
             navLabel: "Lodging & Specials",
             ChildrenItems : [
                 {
