@@ -13,11 +13,19 @@ import NavigationMobile from './components/navigationMobile/navigationMobile';
 class App extends Component{
   constructor(props){
     super(props);
-    this.state = {screenWidth: window.innerWidth};
+    this.state = {
+      screenWidth: window.innerWidth,
+      isWinter : true,
+    };
   }
 
   handleResize = () =>{
-    this.setState(state=> ({screenWidth: window.innerWidth}));
+    this.setState(state=> ({screenWidth: window.innerWidth, isWinter: this.state.isWinter}));
+  }
+
+  handleSeason = (isWinter) =>{
+    this.setState(state=> ({screenWidth: window.innerWidth, isWinter: isWinter}));
+    console.log(this.state);
   }
 
   componentDidMount(){
@@ -27,9 +35,12 @@ class App extends Component{
     return (
       <Router basename={'/'}>
         <div className="App">        
-          {this.state.screenWidth > 980 ? <Navigation></Navigation> :  <NavigationMobile></NavigationMobile>}
+          {this.state.screenWidth > 980 ? 
+            <Navigation handleSeason={this.handleSeason} isWinter={this.state.isWinter}></Navigation> : 
+            <NavigationMobile></NavigationMobile>}
+
           <Switch>
-            <Route path={`${process.env.PUBLIC_URL}/`} exact component={Home}/>
+            <Route path={`${process.env.PUBLIC_URL}/`} exact component={props=> <Home isWinter={this.state.isWinter}></Home>}/>
             <Route path={`${process.env.PUBLIC_URL}/events`}  exact component={Events}/>
             <Route path={`${process.env.PUBLIC_URL}/example1`}  exact component={Example1}/>
           </Switch>        

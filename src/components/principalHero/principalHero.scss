@@ -1,0 +1,31 @@
+#principalHero{
+    color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 180px;
+    h1{
+        font-family: 'Oswald';
+        font-size: 92px;
+        font-weight: 100;
+        
+    }
+    h3{
+        font-family: 'Oswald';
+        font-size: 24px;
+        text-transform: uppercase;      
+        font-weight: 100;  
+        text-align: right;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #0C97B9;
+        font-family: 'Open Sans';
+        padding: 10px;
+        display: block;
+        max-width: 130px;
+       
+    }
+
+}

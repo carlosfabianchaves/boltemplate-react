@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e7d828f49ab9e4c80994ae237edab97",
+    "revision": "c1ee4772c48266dcc58691cc6405adff",
     "url": "/boltemplate-react/build/index.html"
   },
   {
-    "revision": "dbbecec70dc7378da118",
-    "url": "/boltemplate-react/build/static/css/main.5bace748.chunk.css"
+    "revision": "8a58a64107a92d7d4006",
+    "url": "/boltemplate-react/build/static/css/main.d92bf87e.chunk.css"
   },
   {
-    "revision": "c6f2c27d91fe042917ed",
-    "url": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js"
+    "revision": "1323c196fcae51160a3d",
+    "url": "/boltemplate-react/build/static/js/2.f0e81535.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js.LICENSE.txt"
+    "url": "/boltemplate-react/build/static/js/2.f0e81535.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbbecec70dc7378da118",
-    "url": "/boltemplate-react/build/static/js/main.bec8877c.chunk.js"
+    "revision": "8a58a64107a92d7d4006",
+    "url": "/boltemplate-react/build/static/js/main.e9c97d93.chunk.js"
   },
   {
     "revision": "5fa4c0ff58a50231b8fa",

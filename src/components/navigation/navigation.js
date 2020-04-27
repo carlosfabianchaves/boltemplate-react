@@ -10,7 +10,7 @@ class Navigation extends Component{
     constructor(props){
         super(props);
         this.state = {activeMenuId: 0};
-        console.log(returnNav);
+        
     }
 
     
@@ -52,10 +52,15 @@ class Navigation extends Component{
                     closeMenu={this.activateMenu}>
                 </Subnavigation>  
                 <div className="season-switch">
-                    <a href="./summerpage.html">
+                    <a href="#" onClick={()=> {this.props.handleSeason(false)}}
+                       className={this.props.isWinter ? "" : "season-active"}>
                         <img src="./images/icons/Clear.png" alt="" className="season-switch-button clickable"/>
                     </a>
-                    <img src="./images/icons/HeavySnow.png" alt="" className="season-switch-button clickable season-active"/>                    
+                    <a onClick={()=> {this.props.handleSeason(true)}}
+                       className={this.props.isWinter ? "season-active" : ""}>
+                    <img src="./images/icons/HeavySnow.png" alt="" className="season-switch-button clickable"/>                    
+                    </a>
+                    
                 </div>            
             </nav>
            

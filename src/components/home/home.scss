@@ -1,12 +1,17 @@
 .main-component{
     padding-top: 190px;
 }
-
-.main-component.home{
+.main-component.home.summer{
+    background-image: url('../../images/heroes/herosummer.png');
+}
+.main-component.home.winter{
     background-image: url('../../images/heroes/hero-home.jpg');
+}
+.main-component.home{
+    
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     background-position: 50%;
 
     .separator{
