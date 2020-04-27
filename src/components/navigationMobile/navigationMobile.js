@@ -1,68 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import './navigationMobile.scss';
+import {returnNav} from '../navList';
 
 class NavigationMobile extends Component{
-    navigationItems = [
-        {   id: 1,     
-            navLabel: "Explore the Resort",
-            ChildrenItems : [
-                {
-                    navLabel: "Example Pages",
-                    ChildrenItems: [ 
-                        {navLabel: "Events", link: "/events"},
-                        {navLabel: "Snow Report", link: "/snowreport"}
-                ]
-                },
-                {
-                    navLabel: "Placeholder",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                }
-            ]
-        },
-        {     
-            id:2,   
-            navLabel: "The Mountain",
-            ChildrenItems : [
-                {
-                    navLabel: "The Mountain 1",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                },
-                {
-                    navLabel: "The Mountain 2",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                }
-            ]
-        },
-        {     
-            id:2,   
-            navLabel: "Lessons & Rentals",
-            ChildrenItems : [
-                {
-                    navLabel: "Lessons & Rentals 1",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                },
-                {
-                    navLabel: "Lessons & Rentals 2",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                }
-            ]
-        },
-        {     
-            id:2,   
-            navLabel: "Lodging & Specials",
-            ChildrenItems : [
-                {
-                    navLabel: "L & S 1",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                },
-                {
-                    navLabel: "L & S 1 2",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
-                }
-            ]
-        }
-    ];
+    navigationItems = returnNav();
+   
     constructor(props){
         super(props);
         this.state = {isSubmenuOpen: false};

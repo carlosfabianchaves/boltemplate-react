@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/boltemplate-react/build/static/css/main.a2675919.chunk.css",
-    "main.js": "/boltemplate-react/build/static/js/main.eb7aebdc.chunk.js",
-    "main.js.map": "/boltemplate-react/build/static/js/main.eb7aebdc.chunk.js.map",
+    "main.js": "/boltemplate-react/build/static/js/main.ec5942da.chunk.js",
+    "main.js.map": "/boltemplate-react/build/static/js/main.ec5942da.chunk.js.map",
     "runtime-main.js": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js",
     "runtime-main.js.map": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js.map",
     "static/js/2.f0e81535.chunk.js": "/boltemplate-react/build/static/js/2.f0e81535.chunk.js",
     "static/js/2.f0e81535.chunk.js.map": "/boltemplate-react/build/static/js/2.f0e81535.chunk.js.map",
     "index.html": "/boltemplate-react/build/index.html",
-    "precache-manifest.f9b8ba9b162705a106a4b5a7e3c87269.js": "/boltemplate-react/build/precache-manifest.f9b8ba9b162705a106a4b5a7e3c87269.js",
+    "precache-manifest.d798e5f5e7cef3e5a7811d6d58e196b1.js": "/boltemplate-react/build/precache-manifest.d798e5f5e7cef3e5a7811d6d58e196b1.js",
     "service-worker.js": "/boltemplate-react/build/service-worker.js",
     "static/css/main.a2675919.chunk.css.map": "/boltemplate-react/build/static/css/main.a2675919.chunk.css.map",
     "static/js/2.f0e81535.chunk.js.LICENSE.txt": "/boltemplate-react/build/static/js/2.f0e81535.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1b1a2999.js",
     "static/js/2.f0e81535.chunk.js",
     "static/css/main.a2675919.chunk.css",
-    "static/js/main.eb7aebdc.chunk.js"
+    "static/js/main.ec5942da.chunk.js"
   ]
 }
