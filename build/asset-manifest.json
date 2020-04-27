@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/boltemplate-react/build/static/css/main.4e55c3b7.chunk.css",
-    "main.js": "/boltemplate-react/build/static/js/main.1c8eb0f2.chunk.js",
-    "main.js.map": "/boltemplate-react/build/static/js/main.1c8eb0f2.chunk.js.map",
+    "main.css": "/boltemplate-react/build/static/css/main.5bace748.chunk.css",
+    "main.js": "/boltemplate-react/build/static/js/main.bec8877c.chunk.js",
+    "main.js.map": "/boltemplate-react/build/static/js/main.bec8877c.chunk.js.map",
     "runtime-main.js": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js",
     "runtime-main.js.map": "/boltemplate-react/build/static/js/runtime-main.1b1a2999.js.map",
     "static/js/2.8dc2b736.chunk.js": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js",
     "static/js/2.8dc2b736.chunk.js.map": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js.map",
     "index.html": "/boltemplate-react/build/index.html",
-    "precache-manifest.895114ae0175f2970998d61fe3bfd414.js": "/boltemplate-react/build/precache-manifest.895114ae0175f2970998d61fe3bfd414.js",
+    "precache-manifest.8903331f51b6acc0fd43e58508b19b31.js": "/boltemplate-react/build/precache-manifest.8903331f51b6acc0fd43e58508b19b31.js",
     "service-worker.js": "/boltemplate-react/build/service-worker.js",
-    "static/css/main.4e55c3b7.chunk.css.map": "/boltemplate-react/build/static/css/main.4e55c3b7.chunk.css.map",
+    "static/css/main.5bace748.chunk.css.map": "/boltemplate-react/build/static/css/main.5bace748.chunk.css.map",
     "static/js/2.8dc2b736.chunk.js.LICENSE.txt": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js.LICENSE.txt",
     "static/media/home.scss": "/boltemplate-react/build/static/media/hero-home.1053dab8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1b1a2999.js",
     "static/js/2.8dc2b736.chunk.js",
-    "static/css/main.4e55c3b7.chunk.css",
-    "static/js/main.1c8eb0f2.chunk.js"
+    "static/css/main.5bace748.chunk.css",
+    "static/js/main.bec8877c.chunk.js"
   ]
 }

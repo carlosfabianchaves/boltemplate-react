@@ -6,12 +6,17 @@ class WeatherWidget extends Component{
 
     constructor(props){
         super(props);
+        this.state = {isOpen:false};
+    }
+
+    openCloseWidget = ()=>{
+        this.setState(state=> ({isOpen: !this.state.isOpen}));
     }
 
     render(){
         return(
-            <div id="weatherWidget">
-                <div className="weather-detail">
+            <div id="weatherWidget" className={this.state.isOpen ? "open" : ""}>
+                <div className={this.state.isOpen ? "weather-detail open-detail" : "weather-detail"}>
                     <h4>Wednesday <br/>December 17th, 2018</h4>
                     <img src="./images/icons/PartlyCloudyDay.png"/>
                     <p className="weather-desc">
@@ -28,29 +33,30 @@ class WeatherWidget extends Component{
                 <div className="weather-summary">
                     <img src='./images/icons/PartlyCloudyDay.png'/>
                     <h3>65</h3>
-                    <span className="separator"></span>
-                    <h3>00"</h3>
-                    <p className="surface">
-                        Last 12h
-                    </p>
-                    <span className="separator"></span>
-                    <h3>10"</h3>
-                    <p className="surface">
-                        Last 24h
-                    </p>
-                    <span className="separator"></span>
-                    <h3>05"</h3>
-                    <p className="surface">
-                       BASE
-                    </p>
-                    <span className="separator"></span>                    
-                    <h3>32"</h3>
-                    <p className="surface">
-                        Season
-                    </p>
-                    <span className="plus-icon"></span>
+                    <div className={this.state.isOpen ? "" : "hide-mobile"}>
+                        <span className="separator"></span>
+                        <h3>00"</h3>
+                        <p className="surface">
+                            Last 12h
+                        </p>
+                        <span className="separator"></span>
+                        <h3>10"</h3>
+                        <p className="surface">
+                            Last 24h
+                        </p>
+                        <span className="separator"></span>
+                        <h3>05"</h3>
+                        <p className="surface">
+                        BASE
+                        </p>
+                        <span className="separator"></span>                    
+                        <h3>32"</h3>
+                        <p className="surface">
+                            Season
+                        </p>
+                    </div>
                     
-
+                    <span className={this.state.isOpen? "close-icon" : "plus-icon"} onClick={this.openCloseWidget}></span>
                 </div>
             </div>
         )

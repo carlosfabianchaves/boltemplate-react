@@ -65,7 +65,7 @@ class NavigationMobile extends Component{
     ];
     constructor(props){
         super(props);
-        this.state = {isSubmenuOpen: true};
+        this.state = {isSubmenuOpen: false};
         
     }
 

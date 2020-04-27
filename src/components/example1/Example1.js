@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import  PrimaryHero from '../primaryHero/primaryHero';
+import WeatherWidget from '../weatherwWidget/weatherwWidget';
 
 class Example1 extends Component{
 
@@ -15,8 +16,8 @@ class Example1 extends Component{
     render(){
         return(
             <div className="main-content">
-                <PrimaryHero heroData={this.componentData} >
-                    
+                <WeatherWidget></WeatherWidget>
+                <PrimaryHero heroData={this.componentData} >                    
                 </PrimaryHero>
             </div>
         )

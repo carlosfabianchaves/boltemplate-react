@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ea8fcb30315733bf46269b6413f3c21",
+    "revision": "2e7d828f49ab9e4c80994ae237edab97",
     "url": "/boltemplate-react/build/index.html"
   },
   {
-    "revision": "e88278bf54fbedf72b57",
-    "url": "/boltemplate-react/build/static/css/main.4e55c3b7.chunk.css"
+    "revision": "dbbecec70dc7378da118",
+    "url": "/boltemplate-react/build/static/css/main.5bace748.chunk.css"
   },
   {
     "revision": "c6f2c27d91fe042917ed",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boltemplate-react/build/static/js/2.8dc2b736.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e88278bf54fbedf72b57",
-    "url": "/boltemplate-react/build/static/js/main.1c8eb0f2.chunk.js"
+    "revision": "dbbecec70dc7378da118",
+    "url": "/boltemplate-react/build/static/js/main.bec8877c.chunk.js"
   },
   {
     "revision": "5fa4c0ff58a50231b8fa",

@@ -1,11 +1,17 @@
 $assetPath : "/boltemplate-react/build/images/";
-
+#weatherWidget.open{
+    @media screen and (max-width: 980px){
+        background-color: rgba(22, 87, 103, 0.4);
+        backdrop-filter: blur(5px);
+        padding: 10px;
+    }
+}
 #weatherWidget{
     
     position: absolute;
     z-index: 1;
     right: 29px;
-    top: 170px;
+    top: 95px;
     display: flex;
     overflow: hidden;
     color: #fff;
@@ -24,15 +30,24 @@ $assetPath : "/boltemplate-react/build/images/";
         margin-bottom: 30px;
         background-color: #fff;
     }
+
+    .open-detail{
+       right: 0px !important;
+    }
     .weather-detail{
+
         background-color: rgba(22, 87, 103, 0.4);
         backdrop-filter: blur(5px);
         text-align: center;
         width: 239px;
         padding-top: 40px;
         position: relative;
-       /* right: -300px;*/
+        right: -300px;
         transition: right 0.2s;
+        @media screen and (max-width: 980px){
+            background-color: initial;
+            backdrop-filter: initial;
+        }
         h4{
             font-size: 16px;
             font-family: 'Oswald';
@@ -73,6 +88,12 @@ $assetPath : "/boltemplate-react/build/images/";
     .weather-summary{
         width: 60px;
         text-align: center;
+
+        .hide-mobile{
+            @media screen and (max-width: 980px){
+                display: none;
+            }
+        }
         img{
              width: 40px;
              margin: auto;
@@ -102,6 +123,16 @@ $assetPath : "/boltemplate-react/build/images/";
             display: block;
             margin: auto;
         }
+
+        .close-icon{
+            background-image: url(#{$assetPath}/icons/close-icon.svg);
+            background-size: cover;
+            width: 30px;
+            height: 30px;
+            display: block;
+            margin: auto;
+        }
     }
 
 }
+
