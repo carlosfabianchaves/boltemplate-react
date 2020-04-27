@@ -3,6 +3,7 @@ import './home.scss';
 
 import WeatherWidget from '../weatherwWidget/weatherwWidget';
 import PrincipalHero from '../principalHero/principalHero';
+import BookingBar from '../bookingbar/bookingbar';
 
 class Home extends Component{
 
@@ -37,6 +38,8 @@ class Home extends Component{
                 <PrincipalHero data={this.principalHeroData}></PrincipalHero>
                 <WeatherWidget></WeatherWidget>
                <img className="separator" src='./images/path8544.png'/>
+               <BookingBar></BookingBar>
+
             </div>
         );
     }

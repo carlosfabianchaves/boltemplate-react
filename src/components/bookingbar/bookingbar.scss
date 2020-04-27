@@ -1,0 +1,83 @@
+#bookingBar{
+    background-color: #fff;
+    .titles{
+        display: inline-block;
+        width: 45%;
+        padding-bottom: 50px;
+        padding-left: 50px;
+
+        @media screen and (max-width: 980px){
+            width: 80%;
+        }
+
+        h1{
+            color: #B90CA5;
+            font-size: 92px;
+            font-family: 'Oswald';
+            font-weight: 100;
+            @media screen and (max-width: 980px){
+                font-size: 56px;
+            }
+        }
+
+        h3{
+            color: #165767;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-family: 'Oswald';
+            font-weight: 100;
+            text-align: right;
+            margin-right: 10%;
+            @media screen and (max-width: 980px){
+                font-size: 24px;
+            }           
+        }
+    }
+
+    .book-now{
+        border-left: 1px solid #0C97B9;
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+
+        @media screen and (max-width: 980px){
+            width: 80%;
+            padding-top: 0px;
+         }
+
+
+        input{
+            width: 35%;
+            padding: 2%;
+            display: inline-block;
+            margin: 1%;
+            border: 1px solid #8D8D8D;
+            font-family: 'Open Sans';
+            @media screen and (max-width: 980px){
+                width: 40%;
+             }
+        }
+
+        .book-btn{
+            width: 35%;
+            padding: 2%;
+            margin: 1%;
+            background-color: #0C97B9;
+            display: inline-block;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Open Sans';
+            @media screen and (max-width: 980px){
+                font-size: 16px;
+                width: 40%;
+             }
+
+        }
+
+
+    }
+}
