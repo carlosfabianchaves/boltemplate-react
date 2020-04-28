@@ -1,0 +1,45 @@
+/*$assetPath : "/boltemplate-react/build/images/";*/
+$assetPath : "/images/";
+.main-component{
+    padding-top: 190px;
+}
+.main-component.home.summer{
+    background-image: url(#{$assetPath}heroes/herosummer.jpg);
+}
+.main-component.home.winter{
+    background-image: url(#{$assetPath}heroes/hero-home.jpg);
+}
+.main-component.home{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: 50%;
+    @media screen and (max-width: 980px){
+        
+     }    
+
+    .separator{
+        width: 100%;
+        display: block;
+    }
+
+    
+}
+
+.promos{   
+
+    .separator-top{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        margin-top: -2px;
+    }
+    .promo-separator{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        top: -100px;
+    }
+}

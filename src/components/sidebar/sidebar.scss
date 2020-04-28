@@ -1,0 +1,28 @@
+#sideBar{
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    @media screen and (max-width: 980px){
+        width: 100%;
+      }
+    .promo-container{
+        width: 100%;
+        position: relative;
+        .separator-top{
+            top:0px;
+            position: absolute;
+        }
+
+        .separator-promo-bottom{
+            bottom: 0px;
+            position: absolute;
+        }
+        padding-top: 180px;
+        padding-bottom: 80px;
+        
+    }
+
+    #bookingBar .titles, #bookingBar .book-now{
+        width: 100%;
+    }
+}

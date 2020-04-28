@@ -11,19 +11,12 @@ import SocialFeed from '../socialFeed/socialFeed';
 import Contact from '../contact/contact';
 import FooterNav from '../footerNav/footerNav';
 
+import {returnPromos} from '../promoList';
+
 class Home extends Component{
 
     principalHeroData = {};
-    promos = [{
-        title:"A Headline Would Go Right Here",
-        subtitle:"BOOK YOUR LODGING SIMPLY & EASILY",
-        backgroundImage:"./images/placeholder-1.jpg"
-    },
-    {
-        title:"A Headline Would Go Right Here2",
-        subtitle:"BOOK YOUR LODGING SIMPLY & EASILY2",
-        backgroundImage:"./images/placeholder-2.jpg"
-    }]
+    promos = returnPromos();
 
     constructor(props){
         super(props);

@@ -8,3 +8,32 @@ body, div, h1, h2,h3,h4,h5,h6,p{
 body{
 }
 
+.main-content{
+
+  .cm-content{
+    display: flex;
+    margin-bottom: 100px;
+    @media screen and (max-width: 980px){
+      display: block;
+    }    
+    .page-content{
+      width: 68%;
+      @media screen and (max-width: 980px){
+        width: 100%;
+      }
+      vertical-align: top;
+     
+      box-sizing: border-box;
+      padding: 0% 2% 0% 2%;
+      display: inline-block;
+      p{
+        font-family: 'Open Sans';
+        font-size: 16px;
+      }
+    }
+  }
+  
+}
+img{
+  max-width: 100%;
+}
