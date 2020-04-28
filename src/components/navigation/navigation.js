@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './navigation.scss'
 import Subnavigation from './subnavigation/subnavigation'
 import {returnNav} from '../navList';
+import { Link } from 'react-router-dom';
 
 class Navigation extends Component{
     
@@ -11,16 +12,9 @@ class Navigation extends Component{
         super(props);
         this.state = {activeMenuId: 0};
         
-    }
-
-    
+    }   
 
     activateMenu = (event, navItem) => {
-        // console.log({
-        //     state: this.state,
-        //     navItem: navItem
-        // });
-
         this.setState(state => ({ 
             activeMenuId: navItem.id, 
             navItem: navItem,
@@ -43,7 +37,10 @@ class Navigation extends Component{
     render(){
         return(
             <nav id="desktopNav">
-                <img src="./images/main-logo.svg" className="main-logo" alt="Company Logo"/>
+                <Link to="/">
+                    <img src="./images/main-logo.svg" className="main-logo" alt="Company Logo"/>
+                </Link>
+               
                 {this.renderMenu()}
                 <span className="search-top"></span>
                 <span className="shop-top"></span>

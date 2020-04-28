@@ -1,10 +1,10 @@
-$assetPath : "/boltemplate-react/build/images/";
+$assetPath : "/images/";
 
 #desktopNav{
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     display: block;
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%) 0% 0% no-repeat padding-box padding-box transparent;
     padding: 10px;

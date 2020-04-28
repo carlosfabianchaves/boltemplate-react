@@ -1,4 +1,5 @@
-$assetPath : "/boltemplate-react/build/images/";
+/*$assetPath : "/boltemplate-react/build/images/";*/
+$assetPath : "/images/";
 .main-component{
     padding-top: 190px;
 }
@@ -26,8 +27,7 @@ $assetPath : "/boltemplate-react/build/images/";
     
 }
 
-.promos{
-    position: relative;
+.promos{   
 
     .separator-top{
         position: absolute;

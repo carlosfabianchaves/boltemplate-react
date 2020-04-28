@@ -1,0 +1,50 @@
+#footerNav{
+padding-top: 20px;
+    .about{
+        display: inline-block;
+        width: 30%;
+        @media screen and (max-width: 980px){
+            width: 100%;
+        }  
+        img{
+            width: 200px;
+            display: block;
+            margin: auto;
+        }
+
+        p{
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .navigation{
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        @media screen and (max-width: 980px){
+            width: 100%;
+        }  
+        ul{
+            span{
+                font-family: 'Open Sans';
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            display: inline-block;
+            li{
+                list-style: none;
+                font-family: 'Open Sans';
+                font-size: 14px;
+            }
+        }
+    }
+
+    .copy-right{
+        text-align: center;
+    }
+
+    .map{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

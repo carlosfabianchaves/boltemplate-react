@@ -1,6 +1,5 @@
 {
   "name": "boldtemplate", 
-  "homepage": "/boltemplate-react/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -5,6 +5,11 @@ import WeatherWidget from '../weatherwWidget/weatherwWidget';
 import PrincipalHero from '../principalHero/principalHero';
 import BookingBar from '../bookingbar/bookingbar';
 import Promo from '../promo/promo';
+import News from '../news/news';
+import SecondaryHero from '../secondaryHero/secondaryHero';
+import SocialFeed from '../socialFeed/socialFeed';
+import Contact from '../contact/contact';
+import FooterNav from '../footerNav/footerNav';
 
 class Home extends Component{
 
@@ -53,12 +58,16 @@ class Home extends Component{
                 </div>
                <BookingBar></BookingBar>
                <div className="promos">
-                    <img src="./images/upper-triangle.png" alt="" class="separator-top"/>
+                    <img src="./images/upper-triangle.png" alt="" className="separator-top"/>
                     <Promo data={this.promos[0]}></Promo>
                     <Promo data={this.promos[1]}></Promo>
                     <img className="promo-separator" src='./images/path8544.png'/> 
                </div>
-               
+               <News></News>
+               <SecondaryHero></SecondaryHero>   
+               <SocialFeed></SocialFeed>   
+               <Contact></Contact>  
+               <FooterNav></FooterNav>       
             </div>
             
         );

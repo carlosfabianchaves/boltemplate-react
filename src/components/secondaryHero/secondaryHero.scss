@@ -1,0 +1,69 @@
+/*Secondary Hero*/
+
+.secondary-hero{
+    position: relative;
+    background-image: url('/images/heroes/secondary-hero.jpg');
+    background-size: cover;
+    background-position: 50%;
+    margin-top: 50px;
+    .separator-top{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        margin-top: -2px;
+    
+    }
+    .separator-bottom{
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+
+    .heading-div{
+        width: auto;
+        max-width: 600px;
+        color:#fff;
+        margin-left: auto;
+        margin-right: 10%;
+        padding-top: 300px;
+        padding-bottom: 100px;
+       h1{
+        font-family: 'Oswald';
+        font-size: 92px;
+        font-weight: 100;
+        @media screen and (max-width: 980px){
+            font-size: 80px;
+            max-width: 90%;
+        }
+        
+    }
+    h3{
+        font-family: 'Oswald';
+        font-size: 24px;
+        text-transform: uppercase;      
+        font-weight: 100;  
+        text-align: right;
+        @media screen and (max-width: 980px){
+            font-size: 20px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #0C97B9;
+        font-family: 'Open Sans';
+        padding: 10px;
+        display: block;
+        max-width: 130px;
+        text-align: center;
+        text-transform: uppercase;
+        @media screen and (max-width: 980px){
+            
+        }
+       
+    }  
+    }
+    
+
+}
+
