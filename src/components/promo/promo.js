@@ -13,7 +13,7 @@ class Promo extends Component{
         return(
         <div className="promo-container" style={{backgroundImage: 'url(' + this.props.data.backgroundImage + ')'}}>
             {this.props.sidebar === true &&
-                <img src="/images/upper-triangle.png" alt="" class="separator-top"></img>
+                <img src="/images/upper-triangle.png" alt="" className="separator-top"></img>
             }
             
             <div className="heading">
@@ -21,7 +21,7 @@ class Promo extends Component{
                 <h3>{this.props.data.subtitle}</h3>
             </div>
             {this.props.sidebar === true &&
-                <img src="/images/path8544.png" alt="" class="separator-promo-bottom"></img>
+                <img src="/images/path8544.png" alt="" className="separator-promo-bottom"></img>
             }
          
         </div>

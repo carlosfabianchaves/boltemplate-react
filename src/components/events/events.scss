@@ -1,0 +1,94 @@
+#events{
+
+    .event-date-title{
+        color: #B90CA5;
+        font-size: 48px;
+        font-weight: 100;
+        text-align: center;
+        font-family: 'Oswald';
+    }
+
+    .filters{
+        input, select{
+            padding: 10px;
+            box-sizing: border-box;
+            width: 150px;
+            display: inline-block;            
+            margin-right: 20px;
+        }
+        .search-btn{
+            box-sizing: border-box;
+            padding: 10px;
+            vertical-align: top;
+            height:  40px;
+            background-color: #0C97B9;
+            width: 40px;
+            display: inline-block;
+            background-image: url('/images/icons/icon_search.svg');
+            background-size: 60%;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+    }
+}
+    .event-element{
+        display: flex;
+        @media screen and (max-width: 980px){
+            display: block;
+        }  
+        margin-top: 50px;
+        img{
+            width: 30%;
+            @media screen and (max-width: 980px){
+                width: 100%;
+            }  
+        }
+    }
+    .event-data{
+
+        vertical-align: top;
+        text-align: left;
+        padding-left: 2%;
+        box-sizing: border-box;
+        @media screen and (max-width: 980px){
+            width: 100%;
+        }  
+       
+        h2{
+            font-family: 'Oswald';
+            font-size: 30px;
+            font-weight: 100; 
+            color: #165767;               
+        }
+        h3{
+            font-family: 'Oswald';
+            font-size: 20px;
+            font-weight: 100; 
+            color: #0C97B9;  
+            text-transform: uppercase;
+        }
+        .news-line{
+            width: 80px;
+            background-color: #0C97B9;
+            height: 1px;
+            display: block;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Open Sans';
+            font-size: 16px;                
+        }
+        a{
+            font-family: 'Open Sans';
+            font-style: initial;
+            font-size: 14px;
+            color: #0C97B9;
+            display: block;
+            margin-top: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
