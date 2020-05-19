@@ -7,9 +7,8 @@ export function returnNav(){
                     navLabel: "Example Pages",
                     ChildrenItems: [ 
                         {navLabel: "Example1", link: "./example1"},
-                        {navLabel: "Events", link: "./events"},
-                        {navLabel: "Example2", link: "./example2"},
-                        {navLabel: "Snow Report", link: "./snowreport"}
+                        {navLabel: "Events", link: "./events"},                      
+                       
                 ]
                 },
                 {
@@ -24,7 +23,7 @@ export function returnNav(){
             ChildrenItems : [
                 {
                     navLabel: "The Mountain 1",
-                    ChildrenItems: [ {navLabel: "Events", link: "/events"}]
+                    ChildrenItems: [  {navLabel: "Snow Report", link: "/snowreport"}]
                 },
                 {
                     navLabel: "The Mountain 2",

@@ -9,6 +9,7 @@ import Example1 from './components/example1/Example1';
 import Navigation from './components/navigation/navigation';
 import NavigationMobile from './components/navigationMobile/navigationMobile';
 import EventsDetail from './components/events/eventsDetail/eventsDetail';
+import SnowReport from './components/snowreport/snowreport';
 
 
 class App extends Component{
@@ -45,6 +46,7 @@ class App extends Component{
             <Route path={`${process.env.PUBLIC_URL}/events`}  exact component={Events}/>
             <Route path={`${process.env.PUBLIC_URL}/eventsDetail`}  exact component={EventsDetail}/>
             <Route path={`${process.env.PUBLIC_URL}/example1`}  exact component={Example1}/>
+            <Route path={`${process.env.PUBLIC_URL}/snowreport`}  exact component={SnowReport}/>
           </Switch>        
         </div>
       </Router>
