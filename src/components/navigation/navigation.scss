@@ -6,8 +6,8 @@ $assetPath : "/images/";
     width: 100%;
     z-index: 2;
     display: block;
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%) 0% 0% no-repeat padding-box padding-box transparent;
-    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+    padding: 10px 10px 50px 10px;
     display: flex;
     .main-logo{
         width: 170px;
@@ -101,7 +101,8 @@ $assetPath : "/images/";
         }
 
         li {
-            display: block;           
+            display: block;  
+            width: 90px;         
             a{
                 text-decoration: none;
                 color: #fff;

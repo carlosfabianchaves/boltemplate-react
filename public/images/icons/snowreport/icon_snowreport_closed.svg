@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="387 5192 24 24">
+    <title>Closed Icon</title>
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #449fdb;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <g id="closed" transform="translate(387 5192)">
+    <g id="group">
+      <line id="line" class="cls-1"/>
+    </g>
+    <path id="path" class="cls-2" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm3.857,18.428L12,14.57,8.141,18.428,5.572,15.856,9.426,12,5.572,8.141,8.141,5.572,12,9.426l3.857-3.854,2.569,2.569L14.571,12l3.857,3.857-2.57,2.572Z"/>
+  </g>
+</svg>

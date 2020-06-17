@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="503 5192 24 24">
+    <title>Open Icon</title>
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #449fdb;
+      }
+
+      .cls-2 {
+        fill: #6b911d;
+      }
+    </style>
+  </defs>
+  <g id="open" transform="translate(503 5192)">
+    <g id="group">
+      <line id="line" class="cls-1"/>
+    </g>
+    <path id="path" class="cls-2" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.43,19.28,4.579,12.474,6.2,10.725l4.029,2.969,8.811-7.237L20.684,8.2,10.43,19.28Z"/>
+  </g>
+</svg>

@@ -1,3 +1,317 @@
-#SnowReport{
+#SnowReport .content{
+    .intro-section{
+        .heading-section{ 
+            display: inline-block;
+            width: 20%;
+            margin-left: 15%;
+            text-align: center;
+            @media screen and (max-width: 980px){               
+                width: 100%;
+                margin:0;                
+            }
+            h1{
+                color: #B90CA5;
+                font-size: 92px;
+                text-align: left;
+                font-weight: 100;
+                font-family: 'Oswald';
+                @media screen and (max-width: 980px){               
+                  font-size: 48px;    
+                  text-align: center;       
+                }
+            }
+            h2{
+                font-family: 'Oswald';
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #165767;
+                font-weight: 100;
+            }
+        } 
+        .snow-section{
+            
+            display: inline-block;
+            width: 30%;
+            margin-left: 20%;
+            @media screen and (max-width: 980px){               
+                width: 100%;
+                margin:0;  
+                padding: 10%;              
+                box-sizing: border-box;
+            }
+            h2{
+                color: #165767;
+                font-size: 30px;
+                text-align: left;
+                font-weight: 100;
+                font-family: 'Oswald';
+            }
+            h3{
+                color: #0C97B9;
+                font-size: 20px;
+                text-align: left;
+                font-weight: 100;
+                font-family: 'Oswald';
+            }
+            span{
+                width: 80px;
+                height: 1px;                
+                display: block;
+                background-color: #0C97B9;                
+            }
+            p{
+                font-size: 16px;
+                font-family: 'Open Sans';
+            }
+
+            a{
+                color: #0C97B9;
+                font-size: 14px;
+                font-style: italic;
+                font-family: 'Open Sans';
+            }
+        }
+    }
+    .report-count{
+        margin-top: 80px;
+        h1{
+            font-family: 'Oswald';
+            font-size: 48px;
+            color: #B90CA5;
+            text-align: center;
+            font-weight: 100;
+        }
+    }   
+    .weather-container{
+        margin-top: 150px;
+        h1{
+            color: #B90CA5;
+            font-size: 48px;
+            text-align: center;
+            font-family: 'Oswald';
+            font-weight: 100;
+        }
+        .weather-info{
+            width: 90%;
+            display: block;
+            margin: auto;
+            margin-top: 80px;
+            text-align: center;
+            .day-info{
+                display: inline-block;
+                width: 13%;
+                margin: 20px 2.5% 20px 2.5%;
+                vertical-align: top;
+                text-align: center;
+                @media screen and (max-width: 980px){
+                    width: 45%;
+              }
+                .day{
+                    color:#165767;
+                    font-size: 20px;
+                    font-family: 'Oswald';
+                    font-weight: 100;
+                    text-transform: uppercase;
+                }
+                .weather-icon{
+                    width: 50px;   
+                    height: 50px;                 
+                }
+                .temperature{
+                    color:#0C97B9;
+                    font-size: 36px;
+                    font-family: 'Oswald';
+                    font-weight: 100;
+                    text-transform: uppercase;
+                    vertical-align: top;
+                }
+                .weather{
+                    color:#000000;
+                    font-size: 16px;
+                    font-family: 'Open Sans';
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .counter-container{
+        width: 80%;
+        display: block;        
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .counter{
+      display: inline-block;
+      width: 30%;      
+      @media screen and (max-width: 980px){
+          width: 100%;
+            display: block;
+       }
+        .open-number{
+            color: #0C97B9;
+            font-family: 'Oswald';
+            font-size: 46px;
+            vertical-align: bottom;
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: 100;
+        }
     
+        .total-number{
+            color: #0C97B9;
+            font-family: 'Oswald';
+            font-size: 26px;
+            vertical-align: bottom;
+            display: inline-block;
+            font-weight: 100;
+        }
+        .counter-title{
+            color: #165767;
+            font-family: 'Oswald';
+            font-size: 30px;
+            font-weight: 100;
+        }
+
+        a{
+            color: #0C97B9;
+            font-size: 14px;
+            font-family: 'Open Sans';
+            font-style: italic;
+        }
+    }
+
+    .status-container{
+        width: 90%;
+        display: block;
+        margin:auto;
+        h1{
+            font-family: 'Oswald';
+            font-size: 48px;
+            color: #B90CA5;
+            text-align: center;
+            font-weight: 100;
+        }
+        .filters{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            select{
+                padding: 10px;
+                width: 200px;                
+                margin-left: 10px;
+                border: 1px solid #8D8D8D;
+                color: #8D8D8D;
+
+
+                
+                
+            }
+        }
+        .lift-heading{
+            margin-top: 50px;
+            margin-bottom: 25px;
+            .lift-name{
+                color: #0C97B9;
+                font-family: 'Oswald';
+                font-size: 30px;
+                font-weight: 100;
+                margin-right: 20px;
+                display: inline-block;
+            }
+    
+            .lift-status-icon{
+                max-width: 20px;
+                margin-right: 20px;
+                display: inline-block;
+            }
+    
+            .lift-summary{
+                font-family: "Open Sans";
+                font-size: 16px;
+                color: #000;
+                display: inline-block;
+            }
+        }
+
+       
+
+        .table-container{
+            width: 100%;
+            display: block;
+          
+            .table-status{            
+                display: inline-block;
+                vertical-align: text-top;   
+                width: 50%;      
+                padding: 0 30px 0px 0px;
+                @media screen and (max-width: 980px){
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                th{
+                    color:#8D8D8D;
+                    font-size: 16px;
+                    font-family: 'Open Sans';
+                    font-weight: 100;
+                }   
+                .name-column{
+                    display: flex;
+                    width: 250px;
+                    @media screen and (max-width: 980px){
+                        width: 150px;
+                    }
+                    p{
+                        width: 80%;
+                        text-align: center;
+                        font-size: 20px;
+                        color: #165767;
+                        font-family: 'Oswald';
+                    }
+                }
+                .difficulty-column{
+                    @media screen and (max-width: 980px){
+                        width: 80px;
+                    }
+                   width: 100px;
+                   text-align: center;
+                }
+
+                .others-column{
+                    width: 200px;
+                    @media screen and (max-width: 980px){
+                        width: 100px;
+                    }
+                    text-align: center;
+                    img{
+                        margin-right: 4px;
+                    }
+                }
+
+                td{
+                    padding: 10px 0px;
+                    color: #165767;
+                    font-size: 20px;
+                    font-family: 'Oswald';
+                    font-weight: 100;
+                    :nth-child(2){
+                        text-align: center;
+                    }
+                }
+                tr{
+                    border-bottom: 1px solid #8D8D8D;
+                    display: table;
+                }               
+                
+                .report-icon{
+                    width: 25px;
+                    height: 25px;
+                }
+    
+            }  
+
+        }
+        
+                  
+    }   
 }

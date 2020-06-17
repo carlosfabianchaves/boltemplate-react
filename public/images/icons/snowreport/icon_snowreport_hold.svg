@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="603 5192 26 26">
+    <title>Hold Icon</title>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb100;
+      }
+    </style>
+  </defs>
+  <path id="path" class="cls-1" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm1.809,18.331H10.191V14.714h3.618Zm0-5.426H10.191V5.669h3.618Z" transform="translate(603 5192)"/>
+</svg>
